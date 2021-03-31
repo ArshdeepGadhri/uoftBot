@@ -1,6 +1,6 @@
 # uoftBot
 
-This bot makes it easy to access data on the courses provided at the University of Toronto.
+This bot makes it easy to access data on the courses provided at the University of Toronto through Discord.
 ###### Java 1.8 | Discord JDA
 
 
