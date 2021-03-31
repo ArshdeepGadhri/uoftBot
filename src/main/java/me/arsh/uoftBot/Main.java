@@ -4,6 +4,7 @@ import com.jagrosh.jdautilities.command.CommandClient;
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
 import com.jagrosh.jdautilities.commons.waiter.EventWaiter;
 import io.github.cdimascio.dotenv.Dotenv;
+import me.arsh.uoftBot.commands.courseCodeCommand;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.sharding.DefaultShardManager;
@@ -48,6 +49,8 @@ public class Main {
         builder.setActivity(Activity.listening("@uoftBot help"));
 
         CommandClient client = builder.build();
+
+        client.addCommand(new courseCodeCommand(waiter));
 
         JDA2.addEventListener(client);
         JDA2.addEventListener(waiter);
