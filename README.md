@@ -5,7 +5,7 @@ This bot makes it easy to access data on the courses provided at the University 
 
 
 ## Invite
-You can use invite the bot [top.gg](https://top.gg/bot/722908883554926623)
+You can invite the bot from [top.gg](https://top.gg/bot/722908883554926623)
 
 ## Usage
  To use the bot you can do either of the following:
@@ -24,3 +24,6 @@ uoftBot help (Just the Name)
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License - [MIT](https://choosealicense.com/licenses/mit/)
+
+#### This is simply an old project of mine that I'm putting up on github
+
